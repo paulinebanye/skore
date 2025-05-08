@@ -24,8 +24,8 @@ if TYPE_CHECKING:
 class ComparisonReport(_BaseReport, DirNamesMixin):
     """Report for comparing reports.
 
-    This object can be used to compare several :class:`skore.EstimatorReport`s, or
-    several :class:`~skore.CrossValidationReport`s.
+    This object can be used to compare several :class:`skore.EstimatorReport's`, or
+    several :class:`~skore.CrossValidationReport's`.
 
     .. caution:: Reports passed to `ComparisonReport` are not copied. If you pass
        a report to `ComparisonReport`, and then modify the report outside later, it
@@ -49,8 +49,8 @@ class ComparisonReport(_BaseReport, DirNamesMixin):
 
     Attributes
     ----------
-    reports_ : list of :class:`~skore.EstimatorReport` or list of
-               :class:`~skore.CrossValidationReport`
+    reports_ : list of class:`~skore.EstimatorReport` reports or list of
+               :class:`~skore.CrossValidationReport` reports.
         The compared reports.
 
     report_names_ : list of str
